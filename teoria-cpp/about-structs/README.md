@@ -100,7 +100,7 @@ struct triangolo tri;
 Nulla di degno di nota da dire. È possibile creare un array di struct. Sono ottimi per creare delle vere e proprie tabelle.
 
 ```cpp
-struct data{
+struct data {
     int giorno;
     int mese;
     int anno;
