@@ -1,3 +1,11 @@
+/**
+ * Creazione di struct "punto" e funzioni per calcolare punti e distanze tra questi.
+ * 
+ * 08/07/2025
+ * 
+ */
+
+
 #include <iostream>
 #include <cmath>
 
@@ -17,7 +25,7 @@ struct punto punto_intermedio(struct punto p1, struct punto p2) {
     return p_intermedio;
 }
 
-float distanza_tra_i_punti(struct punto p1, struct punto p2){
+float distanza_tra_i_punti(struct punto p1, struct punto p2) {
     
     /* definisci tu il comportamento di questa funzione!
     ho inserito una libreria che supporta una funzione chiamata sqrtf()
