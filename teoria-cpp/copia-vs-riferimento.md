@@ -9,12 +9,12 @@ Creando delle funzioni in C++ (e in C), gli argomenti possono essere passati per
 ### Sintassi:
 ```cpp
 // per valore
-void stampa(int arg){
+void stampa(int arg) {
     /*...*/
 }
 
 // per riferimento
-void modifica(int &arg){
+void modifica(int &arg) {
     /*...*/
 }
 ```
