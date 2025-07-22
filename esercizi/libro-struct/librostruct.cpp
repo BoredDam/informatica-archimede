@@ -46,7 +46,7 @@ int main() {
 	for (int i = 0; i < N; i++) {
 		if (l[i].autore == autore1) {
 			cout << l[i].autore << " ha scritto " << l[i].titolo << " nel " << l[i].annopub << endl;
-            autore_trovato = true;
+			autore_trovato = true;
 			//break; // nell'ipotesi in cui ogni autore appaia solo una volta, questo break interrompe il for, in modo da non fare cicli inutili nel caso in cui l'autore sia già stato trovato
 		}
 	} 
