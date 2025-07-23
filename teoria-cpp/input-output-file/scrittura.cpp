@@ -12,7 +12,7 @@ using namespace std;
 
 int main() {
     fstream text_file;
-    text_file.open("rick.txt", ios::out); 
+    text_file.open("rick.txt", ios::app); 
 
     if (text_file.is_open()) { 
         text_file<<"I turned myself in a text file, Morty!\n";
