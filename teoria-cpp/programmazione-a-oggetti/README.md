@@ -1,6 +1,8 @@
 # La programmazione ad oggetti - Object Oriented Programming
 
-La programmazione ad oggetti è un paradigma (un tipo, un modello) di programmazione, che introduce concetti nuovi, quali **classi**, **oggetti**, **attributi** e **metodi**.
+La programmazione ad oggetti è un modo di programmare in cui i sistemi da costruire, sono astratti sotto forma di oggetti.
+
+I concetti fondamentali della programmazione a oggetti, sono **classi**, **oggetti**, **attributi** e **metodi**.
 
 ## Definizioni
 
@@ -39,5 +41,6 @@ Distinguiamo quattro tipologie principali di metodi:
 
 - Costruttori: servono a creare gli oggetti.
 - Distruttori: servono per eliminare gli oggetti creati.
-- Modificatori: modificano lo stato (il valore degli attributi) di un oggetto.
-- Query: ritornano lo stato (il valore degli attributi) di un oggetto.
+- Setter: modificano lo stato (il valore degli attributi) di un oggetto.
+- Getter: ritornano lo stato (il valore degli attributi) di un oggetto.
+
