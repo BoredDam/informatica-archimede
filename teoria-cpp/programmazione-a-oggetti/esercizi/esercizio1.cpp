@@ -20,7 +20,6 @@ class Lampadina {
         if ( intensita_input>5 ||  intensita_input<1) {
             cout<<"intesnita non valida "<<endl;
             return;
-
         }
         if (acceso==1) {
             intensita=intensita_input;
@@ -44,6 +43,4 @@ int main() {
     Lampadina lampadina1;
     lampadina1.interruttore();
     lampadina1.set_intensita(-1);
-    
-    
 }
